@@ -13,6 +13,7 @@
     display: none;
 }
 
+
 .clearfix::after {
     content: "";
     display: table;
@@ -31,7 +32,7 @@ body {
 }
 
 .wrapper {
-    width: 1000px;
+    width: 95vw;
     position: absolute;
     top: 50%;
     left: 50%;
