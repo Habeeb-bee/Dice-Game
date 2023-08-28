@@ -57,11 +57,11 @@ body {
 **********************************************/
 
 .player-name {
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: 100;
+    font-weight: 400;
     margin-top: 20px;
     margin-bottom: 10px;
     position: relative;
@@ -69,14 +69,14 @@ body {
 
 .player-score {
     text-align: center;
-    font-size: 80px;
-    font-weight: 100;
+    font-size: 4.5rem;
+    font-weight: 300;
     color: #EB4D4D;
     margin-bottom: 130px;
 }
 
 .active { background-color: #dfdfdf; }
-.active .player-name { font-weight: 300; }
+.active .player-name { font-weight: 500; }
 
 .active .player-name::after {
     content: "\2022";
@@ -91,21 +91,24 @@ body {
 .player-current-box {
     background-color: #EB4D4D;
     color: #fff;
-    width: 40%;
     margin: 0 auto;
-    padding: 12px;
+    font-weight: 400;
+    padding: 2rem 2rem;
     text-align: center;
 }
 
 .player-current-label {
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    font-size: 12px;
+   font-size: 2.2rem;
+   letter-spacing: 5px;
+   left: 0;
+   right: 0;
+   padding: .5rem;
     color: #222;
 }
 
 .player-current-score {
-    font-size: 30px;
+    font-size: 3rem;
+
 }
 
 button {
@@ -117,17 +120,17 @@ button {
     background: none;
     border: none;
     font-family: Lato;
-    font-size: 20px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     cursor: pointer;
-    font-weight: 300;
-    transition: background-color 0.3s, color 0.3s;
+    font-weight: 400;
+    transition: all 100ms;
 }
 
 
 
 button:hover { font-weight: 600; }
-button:hover i { margin-right: 20px; }
+button:hover i { z-index: 10; }
 
 button:focus {
     outline: none;
