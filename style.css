@@ -33,9 +33,9 @@ body {
 
 .wrapper {
     width: 95vw;
-    height: 30vh;
+    height: 35vh;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
