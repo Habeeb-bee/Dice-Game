@@ -33,7 +33,6 @@ body {
 
 .wrapper {
     width: 95vw;
-    height: 35vh;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -85,7 +84,6 @@ body {
     position: absolute;
     color: #EB4D4D;
     top: -7px;
-    right: 10px;
     
 }
 
@@ -168,3 +166,5 @@ i {
 
 .winner { background-color: #1ac00bd0; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+
